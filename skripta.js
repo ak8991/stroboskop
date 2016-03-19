@@ -42,7 +42,7 @@ window.addEventListener('load', function() {
 		var stop = document.querySelector("#start");
 		stop.innerHTML="Zaženi stroboskop";
 		stop.removeEventListener('click', stop);
-		stop.addEventListener('click', start);
+		stop.addEventListener('click', zagon);
 	}
 	
 	var zagon = function(event) {
